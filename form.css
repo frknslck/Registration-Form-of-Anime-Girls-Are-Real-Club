@@ -35,7 +35,6 @@ label{
     border-radius: 30px;
 }
 
-
 textarea{
     background-color: transparent;
 }
@@ -50,4 +49,6 @@ textarea{
     border-color: white;
 }
 
-
+.reason{
+    padding: 0px;
+}
