@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1>Club of "Anime Girls Are Real" Registration Form</h1>
+
+    <form>
+      
+      <fieldset>
+
+        <legend>Personal Info</legend>
+        
+        <label for="name">Full Name</label>
+        <input type="text" name="name" placeholder="ex: Furkan Bülbül" required/><br>
+
+        <label for="nickname">Nickname</label>
+        <input type="text" name="nickname" placeholder="ex: Romanoff" required/><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" mame="email" placeholder="ex: furkanselcuk.fs58" required/>
+        <select name="email">
+          <option>gmail.com</option>
+          <option>hotmail.com</option>
+          <option>outlook.com</option></select><br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" placeholder="minimum 15" min="15" required><br>
+    
+      <div class="gender">
+        <label for="gender">Gender</label>
+        <input id="radio" type="radio" name="gender" value="Male" required/>Male
+        <input id="radio" type="radio" name="gender" value="Female" required/>Female
+        <input id="radio" type="radio" name="gender" value="Attack Helicopter" required/>Attack Helicopter<br>
+      </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend for="reason">Your Reason to Thinking Same Way With Us</legend>
+
+        <textarea name="reason" cols="30" rows="8" required></textarea><br>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Your Best Waifu with Name and Picture</legend>
+
+        <label for="waifu">Her Name</label>
+        <input type="text" name="waifu" placeholder="ex: Kurisu Makise" required> <br>
+        
+      <div class="file">
+        <label for="file">Photo</label>
+        <input type="file" name="file" accept="image/*" multiple required>
+      </div>
+
+      </fieldset>
+
+        <button type="submit">Submit</button> <button type="reset">Reset</button>
+
+    </form>
+  </body>
+</html>
+
